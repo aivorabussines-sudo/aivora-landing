@@ -67,11 +67,5 @@ export default function Home() {
         </main>
     );
 }
-export default function Home() {
-  return (
-    <main>
-      <h1>AIVORA</h1>
-      <p>Landing page is live.</p>
-    </main>
-  )
-}
+
+
