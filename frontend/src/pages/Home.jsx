@@ -1,19 +1,19 @@
 import React from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
-import FeaturesSection from '../components/FeaturesSection';
-import CapabilitiesSection from '../components/CapabilitiesSection';
-import TrustedBySection from '../components/TrustedBySection';
+import ProblemsSection from '../components/ProblemsSection';
+import SolutionSection from '../components/SolutionSection';
+import PricingSection from '../components/PricingSection';
 import FinalCTA from '../components/FinalCTA';
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-black">
       <Header />
       <HeroSection />
-      <FeaturesSection />
-      <CapabilitiesSection />
-      <TrustedBySection />
+      <ProblemsSection />
+      <SolutionSection />
+      <PricingSection />
       <FinalCTA />
     </div>
   );
