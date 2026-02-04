@@ -11,18 +11,19 @@ const FinalCTA = () => {
       </div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
-        <h2 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight max-w-4xl mx-auto">
-          Cliengo Hub transforma tu WhatsApp en el centro de tus ventas y atención al cliente.
+        <h2 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight max-w-4xl mx-auto">
+          No lo pienses más.
         </h2>
         
-        <p className="text-xl text-purple-100 mb-10 max-w-2xl mx-auto">
-          Únete a más de 3.000 empresas que ya están creciendo con nuestra plataforma.
+        <p className="text-3xl text-purple-100 mb-10 max-w-2xl mx-auto font-semibold">
+          Cada día sin AIVORA es dinero regalado.
         </p>
         
         <Button 
-          className="bg-white text-purple-700 hover:bg-gray-100 px-10 py-7 text-xl rounded-full font-bold shadow-2xl transition-all duration-300 hover:shadow-3xl hover:scale-110"
+          onClick={() => document.getElementById('prices')?.scrollIntoView({ behavior: 'smooth' })}
+          className="bg-white text-purple-700 hover:bg-gray-100 px-12 py-8 text-2xl rounded-xl font-bold shadow-2xl transition-all duration-300 hover:shadow-3xl hover:scale-110"
         >
-          Pruébalo ahora 14 días
+          Empezar ahora
         </Button>
       </div>
       
@@ -30,7 +31,7 @@ const FinalCTA = () => {
       <div className="container mx-auto px-6 mt-20 pt-12 border-t border-white/20 relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-purple-200">
-            © 2025 Cliengo. Todos los derechos reservados.
+            © 2025 AIVORA. Todos los derechos reservados.
           </div>
           <div className="flex space-x-6 text-sm text-purple-200">
             <a href="#" className="hover:text-white transition-colors duration-200">Términos</a>
